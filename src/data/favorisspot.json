@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "nom": "spot1",
+    "type": "",
+    "mesure" : "12",
+    "orientation": "n",
+    "ref": ""
+  },
+  {
+    "id": "2",
+    "nom": "spot2",
+    "type": "",
+    "mesure" : "12",
+    "orientation": "n",
+    "ref": ""
+  },
+  {
+    "id": "3",
+    "nom": "spot3",
+    "type": "",
+    "mesure" : "12",
+    "orientation": "n",
+    "ref": ""
+  },
+  {
+    "id": "4",
+    "nom": "spot4",
+    "type": "",
+    "mesure" : "22",
+    "orientation": "n",
+    "ref": ""
+  }
+]

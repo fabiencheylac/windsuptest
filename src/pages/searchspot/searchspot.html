@@ -1,0 +1,17 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Winds-up</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<ion-searchbar  (ionInput)="getItems($event)" placeholder="Search" animated="true"></ion-searchbar>
+
+  <ion-list *ngFor="let spot of ListeSpot"  no-lines>
+    <button ion-item  text-wrap  (click)="afficherspot(spot.id)">
+    {{ spot.nom }}
+    <ion-badge item-right>{{ spot.mesure }}{{ spot.orientation }} </ion-badge>
+    </button>
+  </ion-list>
+</ion-content>

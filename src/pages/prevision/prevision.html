@@ -1,0 +1,73 @@
+<!--
+Generated template for the Prevision page.
+
+See http://ionicframework.com/docs/components/#navigation for more info on
+Ionic pages and navigation.
+-->
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Winds-up</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <div *ngFor="let date of Prevision">
+
+<p > {{ date.dayname }} {{ date.day }} {{ date.month }}</p>
+    <table >
+
+      <thead>
+        <tr>
+          <td>
+            Heure
+          </td>
+          <td>
+            Moyenne
+          </td>
+          <td>
+            Min
+          </td>
+          <td>
+            max
+          </td>
+          <td>
+            Orientation
+          </td>
+        </tr>
+
+      </thead>
+      <tbody>
+
+          <tr *ngFor="let inf of date.info">
+          <td>
+            {{inf.valueheure}}
+          </td>
+          <td>
+            {{inf.moyen}}
+          </td>
+          <td>
+            {{ inf.min}}
+          </td>
+          <td>
+            {{ inf.max}}
+          </td>
+          <td>
+            {{ inf.orientation}}
+          </td>
+          <td>
+            {{ inf.pourcentage}}
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+
+
+
+
+</ion-content>

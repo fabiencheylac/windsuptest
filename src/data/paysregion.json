@@ -1,0 +1,94 @@
+[
+  {
+    "nomPays": "france",
+    "refPays": "fr",
+    "idPays": 1,
+    "showDetails": false,
+    "icon": "ion-chevron-right",
+    "region":[
+      {
+        "nomRegion": "Aquitaine",
+        "refRegion":"aq",
+        "idRegion": 1
+      },
+      {
+        "nomRegion": "Mediteranné",
+        "refRegion": "me",
+        "idRegion": 2
+      },
+      {
+        "nomRegion": "bretagne",
+        "refRegion": "br",
+        "idRegion": 3
+      },
+      {
+        "nomRegion": "Manche",
+        "refRegion": "ma",
+        "idRegion": 4
+      },
+      {
+        "nomRegion": "charente & vendé",
+        "refRegion": "cv",
+        "idRegion": 5
+      }
+    ]
+  },
+  {
+    "nomPays": "Italie",
+    "refPays": "it",
+    "idPays": 1,
+    "showDetails": false,
+    "icon": "ion-chevron-right",
+    "region":[
+      {
+        "nomRegion": "region1",
+        "refRegion": "r1",
+        "idRegion": 11
+      },
+      {
+        "nomRegion": "region2",
+        "refRegion": "r2",
+        "idRegion": 12
+      },
+      {
+        "nomRegion": "region1",
+        "refRegion": "r3",
+        "idRegion": 13
+      },
+      {
+        "nomRegion": "region2",
+        "refRegion": "r4",
+        "idRegion": 14
+      }
+    ]
+  },
+  {
+    "nomPays": "Espagne",
+    "refPays": "es",
+    "idPays": 1,
+    "showDetails": false,
+    "icon": "ion-chevron-right",
+    "region":[
+      {
+        "nomRegion": "region1",
+        "refRegion": "r1",
+        "idRegion": 21
+      },
+      {
+        "nomRegion": "region2",
+        "refRegion": "r2",
+        "idRegion": 22
+      },
+      {
+        "nomRegion": "region1",
+        "refRegion": "r3",
+        "idRegion": 23
+      },
+      {
+        "nomRegion": "region2",
+        "refRegion": "r4",
+        "idRegion": 24
+      }
+    ]
+  }
+]

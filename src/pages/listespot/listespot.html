@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Winds-up</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <button ion-item padding *ngFor="let spot of ListesSpot" (click)="afficherspot(spot.id)">
+            {{ spot.nom }}
+         <ion-badge item-right>{{ spot.mesure }}{{ spot.orientation }} </ion-badge>
+    </button>
+  </ion-list>
+</ion-content>

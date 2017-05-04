@@ -1,0 +1,139 @@
+[
+  {
+    "nom": "Favoris",
+    "ref": "fa",
+    "id": 1,
+    "type": true,
+    "showDetails": false,
+    "iconright": "ion-chevron-right",
+    "iconleft": "ion-star",
+    "region":"",
+    "favoris":[
+      {
+        "id": "1",
+        "nom": "1blabla",
+        "type": "",
+        "mesure" : "12",
+        "orientation": "n",
+        "ref": ""
+      },
+      {
+        "id" : "1",
+        "nom" : "2blabla",
+        "type" : "",
+        "mesure" : "12",
+        "orientation": "n",
+        "ref" : ""
+      },
+      {
+        "id": "1",
+        "nom": "3blabla",
+        "type": "",
+        "mesure" : "12",
+        "orientation": "n",
+        "ref": ""
+      }
+    ]
+  },
+  {
+    "nom": "france",
+    "ref": "fr",
+    "id": 1,
+    "type": false,
+    "showDetails": false,
+    "iconright": "ion-chevron-right",
+    "iconleft": "ion-star",
+    "region":[
+      {
+        "nomRegion": "Aquitaine",
+        "refRegion":"aq",
+        "idRegion": 1
+      },
+      {
+        "nomRegion": "Mediteranné",
+        "refRegion": "me",
+        "idRegion": 2
+      },
+      {
+        "nomRegion": "bretagne",
+        "refRegion": "br",
+        "idRegion": 3
+      },
+      {
+        "nomRegion": "Manche",
+        "refRegion": "ma",
+        "idRegion": 4
+      },
+      {
+        "nomRegion": "charente & vendé",
+        "refRegion": "cv",
+        "idRegion": 5
+        }
+      ],
+      "favoris":""
+      },
+      {
+        "nom": "Espagne",
+        "ref": "fr",
+        "id": 2,
+        "type": "pays",
+        "showDetails": false,
+        "iconright": "ion-chevron-right",
+        "iconleft": "ion-star",
+        "region":[
+          {
+            "nomRegion": "region1",
+            "refRegion": "r1",
+            "idRegion": 11
+          },
+          {
+            "nomRegion": "region2",
+            "refRegion": "r2",
+            "idRegion": 12
+          },
+          {
+            "nomRegion": "region1",
+            "refRegion": "r3",
+            "idRegion": 13
+          },
+          {
+            "nomRegion": "region2",
+            "refRegion": "r4",
+            "idRegion": 14
+            }
+          ],
+        "favoris":""
+          },
+          {
+            "nom": "Italie",
+            "ref": "it",
+            "id": 4,
+            "type": false,
+            "showDetails": false,
+            "iconright": "ion-chevron-right",
+            "iconleft": "ion-star",
+            "region":[
+              {
+                "nomRegion": "region1",
+                "refRegion": "r1",
+                "idRegion": 11
+              },
+              {
+                "nomRegion": "region2",
+                "refRegion": "r2",
+                "idRegion": 12
+              },
+              {
+                "nomRegion": "region1",
+                "refRegion": "r3",
+                "idRegion": 13
+              },
+              {
+                "nomRegion": "region2",
+                "refRegion": "r4",
+                "idRegion": 14
+              }
+            ],
+            "favoris":""
+          }
+  ]

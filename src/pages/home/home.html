@@ -1,0 +1,40 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Winds-up</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+<button (click)="searchspotpage()">Search a spot
+  <ion-icon color="primary" item-left name="search"  ></ion-icon>
+</button>
+
+<div *ngFor="let item of ListeHome" >
+  <ion-list  >
+    <ion-list-header  class="headlist"(click)="toggleDetails(item)">
+      <ion-icon   [hidden]="!item.favoris" color="primary" item-left name="star"  ></ion-icon>
+
+      <img [hidden]="!item.region" src="assets/img/flags-mini/fr.png">
+      {{ item.nom }}
+    </ion-list-header no-lines>
+
+      <div  *ngIf="item.showDetails">
+        <div  *ngIf="item.favoris!=null">
+          <button ion-item  *ngFor="let fav of item.favoris" text-wrap  (click)="afficherspot(fav.id)">
+            {{ fav.nom }}
+            <ion-badge item-right>{{ fav.mesure }} {{ fav.orientation }} </ion-badge>
+          </button>
+        </div>
+
+        <div *ngIf="item.region!=null">
+
+          <button ion-item   *ngFor="let region of item.region" text-wrap  (click)="afficherlistespot(region.id)">
+            {{ region.nomRegion }}
+          </button>
+        </div>
+      </div>
+  </ion-list>
+</div>
+
+</ion-content>
